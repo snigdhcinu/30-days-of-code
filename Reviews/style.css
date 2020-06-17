@@ -2,9 +2,49 @@
 	background-color: #a6dcef;
 	width: 100vw;
 	height: 100vh;
+	margin-top: -60px;
 }
 #container{
 	text-align: center;
 	position: relative;
-	top: 40vh;
+	top: 18vh;
+}
+#container p{
+	font-size: xx-large;
+	font-weight: bold;
+}
+hr{
+	width: 5%;
+	height: 3px;
+	border-style: none;
+	background-color: #0a97b0;
+	position: relative;
+	top: -30px;
+}
+#cards{
+	position: relative;
+	left: 30vw;
+	background-color: #f9fcfb;
+	width: 40vw;
+	height: 45vh;
+}
+#cards:hover{
+	box-shadow: 2px 2px 2px 1px #e0dede, -2px -2px 2px 1px #e0dede, 2px -2px 2px 1px #e0dede, -2px 2px 2px 1px #e0dede;
+}
+#photo{
+	border-radius: 50%;
+}
+#buttons button{
+	background-color: #f9fcfb;
+	color: #0a97b0;
+	border-style: none;
+	font-size: 1.8em;
+	outline: none;		/* So that onclick the element doesn't have a border around it */
+}
+#rand_review button{
+	background-color: #f9fcfb;
+	border-color: #0a97b0;
+	border-radius: 20px;
+	color: #0a97b0;
+	outline: none;
 }
