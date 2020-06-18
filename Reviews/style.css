@@ -9,7 +9,7 @@
 	position: relative;
 	top: 18vh;
 }
-#container p{
+#desc{
 	font-size: xx-large;
 	font-weight: bold;
 }
@@ -26,13 +26,18 @@ hr{
 	left: 30vw;
 	background-color: #f9fcfb;
 	width: 40vw;
-	height: 45vh;
+	height: 58vh;
 }
 #cards:hover{
 	box-shadow: 2px 2px 2px 1px #e0dede, -2px -2px 2px 1px #e0dede, 2px -2px 2px 1px #e0dede, -2px 2px 2px 1px #e0dede;
 }
-#photo{
+#photo img{
+	margin-top: 10px;
+	box-shadow: 6px -6px 2px #01a9b4;
 	border-radius: 50%;
+	width: 12vw;
+	height: 24vh;
+
 }
 #buttons button{
 	background-color: #f9fcfb;
@@ -47,4 +52,18 @@ hr{
 	border-radius: 20px;
 	color: #0a97b0;
 	outline: none;
+}
+#name{
+	margin-top: -5px;
+	font-size: 1.7em;
+}
+#designation{
+	font-size: 1.3em;
+	color: #32e0c4;
+	margin-top: -1em;
+}
+#description{
+	margin-top: -15px;
+	font-family: cursive;
+	color: #888888;
 }
