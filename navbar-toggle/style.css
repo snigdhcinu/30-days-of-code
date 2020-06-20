@@ -1,0 +1,31 @@
+	/*AT WIDTH 1030 PX, THE TOGGLE SHOULD APPEAR.*/
+
+
+body{
+	background-color: #a6dcef;
+}
+nav{
+	background-color: #fff;
+	height: 4.5em;
+	margin-top: -18px;
+	width: 100vw;
+	margin-left: -10px;
+	/*box-shadow: 10px 10px #f7fbe1;*/
+}
+.list-item{
+	display: inline;
+	font-size: 1.5em;
+	padding-left: 20px;
+}
+#logo{
+	display: inline;
+	width: 40%;
+	position: relative;
+	top: 1.15em;
+}
+#modes{
+	/*margin-left: 60vw;*/
+	position: relative;
+	left: 60vw;
+	width: 40%;
+}
