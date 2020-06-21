@@ -1,0 +1,14 @@
+body{
+	background-color: #87dfd6;
+}
+#container{
+	text-align: center;
+	position: relative;
+	top: 50vh;
+
+}
+li{
+	display: inline;
+	padding-right: 20px;
+	font-size: 3em;
+}
