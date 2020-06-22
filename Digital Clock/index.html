@@ -5,11 +5,19 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<header>Select the time display mode</header>
 <div id="container">
+	<table id="modes">
+		<tr>
+			<td><button id="_24" onclick="_24hrs()">24 hours format</button></td>
+			<td><button id="_12" onclick="_12hrs()">12 hours format</button></td>
+		</tr>
+	</table>
 	<ul>
 		<li id="hrs"></li>
 		<li id="mins"></li>
 		<li id="secs"></li>
+		<li id="section"></li>
 
 	</ul>
 </div>
