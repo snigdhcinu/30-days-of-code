@@ -1,11 +1,31 @@
 body{
 	background-color: #87dfd6;
 }
+header{
+	position: relative;
+	top: 10vh;
+	font-size: 2.5em;
+	left: 33vw;
+	color: #649d66;
+	font-family:fantasy;
+}
 #container{
 	text-align: center;
 	position: relative;
-	top: 40vh;
+	top: 33vh;
 	font-family: cursive;
+}
+#modes{
+	position: relative;
+	left: 35vw;
+	top: -10vh;
+}
+#modes button{
+	background-color: #fff;
+	font-size: 1.5em;
+	border-radius: 10px;
+	outline: none;
+	height: 1.5em;
 }
 ul{
 	border-style: solid;
@@ -20,4 +40,7 @@ li{
 	display: inline;
 	padding-right: 20px;
 	font-size: 3em;
+}
+#section{
+	display: none;
 }
