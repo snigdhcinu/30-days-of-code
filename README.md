@@ -5,3 +5,6 @@ Perform git clone and this repository url to copy all these files in your machin
 3. https://snigdhcinu.github.io/30-days-of-code/Reviews/index.html
 4. https://snigdhcinu.github.io/30-days-of-code/colorFlicker/index.html 
 5. https://snigdhcinu.github.io/30-days-of-code/navbar-toggle/index.html
+
+
+# Work on responsiveness
