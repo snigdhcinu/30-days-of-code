@@ -3,6 +3,7 @@
 <head>
 	<title>navbar-toggle</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 <body>
 <div id="container">
@@ -12,18 +13,23 @@
 				CoderMa
 			</li>
 			<div id="modes">
-			<li class="list-item">
+			<li  id="toggler" onclick="toggle()"> 
+				<button id="btn" ><i class="fas fa-bars"></i></button>
+			</li>
+		<div id="tog-item">
+			<a href="#"><li class="list-item">
 				Home
-			</li>
-			<li class="list-item">
+			</li></a><hr>
+			<a href="#"><li class="list-item">
 				About
-			</li>
-			<li class="list-item">
+			</li></a><hr>
+			<a href="#"><li class="list-item">
 				Projects
-			</li>
-			<li class="list-item">
+			</li></a><hr>
+			<a href="#"><li class="list-item">
 				Contact 
-			</li>
+			</li></a>
+		</div>
 			</div>
 		</ul>
 	</nav>

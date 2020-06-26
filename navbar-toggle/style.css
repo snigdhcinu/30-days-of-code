@@ -12,10 +12,14 @@ nav{
 	margin-left: -10px;
 	/*box-shadow: 10px 10px #f7fbe1;*/
 }
+a{
+	text-decoration: none;
+	color: #000;
+}
 .list-item{
 	display: inline;
 	font-size: 1.5em;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 #logo{
 	display: inline;
@@ -28,4 +32,68 @@ nav{
 	position: relative;
 	left: 60vw;
 	width: 40%;
+}
+#toggler{
+	display: none;
+}
+hr{
+	display: none;
+}
+@media(max-width: 1030px){
+	body{
+	background-color: #a6dcef;
+}
+nav{
+	background-color: #fff;
+	height: 4.5em;
+	margin-top: -18px;
+	width: 100vw;
+	margin-left: -10px;
+	/*box-shadow: 10px 10px #f7fbe1;*/
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.list-item{
+	width: 6rem;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 10px;
+	display: block;
+	background-color: #e0dede;
+
+}
+.list-item:hover{
+	background-color: #e4f9ff;
+	color: #ff4301;
+}
+#tog-item{
+	display: none;
+}
+#logo{
+	display: inline;
+	width: 40%;
+	position: relative;
+	top: 1.15em;
+	background-color: #fff;
+}
+#modes{
+	/*margin-left: 60vw;*/
+	position: relative;
+	left: 60vw;
+	width: 40%;
+}
+#toggler{
+	display: inline;
+	border-style: solid;
+	position: relative;
+	left: 20vw;
+}
+#toggler button{
+	transform: scale(1.5);
+	background-color: #fff;
+	border-style: none;
+	outline: none;
+}
 }
