@@ -7,7 +7,12 @@ body{
 #sidebar{
 	width: 40%;
 	display: none;
-	transition: display 3s;
+	/*transition: display 3s;*/
+	float: left;
+	height: 100vh;
+	padding-top: 20px;
+	margin-top: -20px;
+	margin-left: -10px;
 }
 #sidebar button{
 	background-color: #ddf3f5;
@@ -15,10 +20,36 @@ body{
 	outline: none;
 }
 #toggler{
+	float: right;
 	position: relative;
-	left: 90vw;
+	top: 1em;
+	margin-right: 5em;
 	transform: scale(1.5,1.5);
 	background-color: #ddf3f5;
 	border-style: none;
 	outline: none;
+}
+.list-container{
+	list-style-type: none;
+}
+#list{
+	padding-top: 2em;
+}
+a{
+	text-decoration: none;
+}
+.list-item{
+	margin-bottom: 20px;
+	font-size: 1.3em;
+	font-family: cursive;
+	color: #000;
+}
+#top-left {
+	padding-left: 20px;
+	font-size: 2em;
+}
+#top-right{
+	position: relative;
+	left: 55%;
+	margin-right: 21vw;
 }

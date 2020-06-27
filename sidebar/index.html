@@ -6,21 +6,21 @@
 </head>
 <body>
 <div class="grid-container">
-<div id="sidebar" class="grid-item">
-	<p class="top">CoderMa</p>
-	<button class="top" onclick="hide()">❌</button>
-
+<div id="sidebar" class="left-item">
+	<p id="top-left">CoderMa
+	<button id="top-right" onclick="hide()">❌</button>
+	</p>
 	<div id="list">
 		<ul class="list-container">
-			<li class="list-item">Home</li>
-			<li class="list-item">About</li>
-			<li class="list-item">Projects</li>
-			<li class="list-item">Contact</li>
+			<a href="#"><li class="list-item">Home</li></a>
+			<a href="#"><li class="list-item">About</li></a>
+			<a href="#"><li class="list-item">Projects</li></a>
+			<a href="#"><li class="list-item">Contact</li></a>
 		</ul>
 	</div>
 
 </div>
-<button id="toggler" class="grid-item" onclick="toggle()">☰</button>
+<button id="toggler" class="right-item" onclick="toggle()">☰</button>
 </div>
 <script type="text/javascript" src="script.js"></script>
 </body>
