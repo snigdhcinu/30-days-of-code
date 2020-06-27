@@ -8,4 +8,4 @@ Perform git clone and this repository url to copy all these files in your machin
 6. https://snigdhcinu.github.io/30-days-of-code/sidebar/index.html
 
 
-
+# If you like this, then be sure to leave a star.
