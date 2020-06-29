@@ -9,3 +9,4 @@ Perform git clone and this repository url to copy all these files in your machin
 7. https://snigdhcinu.github.io/30-days-of-code/modal/index.html
 
 # If you like this, then be sure to leave a star.
+# And please do notify incase of any bug found.
