@@ -1,7 +1,12 @@
-body{
+#body{
 	background-image: url('public/images/bgimg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 100vh;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
 	
 }
 #container{
