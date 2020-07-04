@@ -38,6 +38,17 @@ body{
 	box-shadow: 1.2px 1.2px 2px 2px #ccc;
 }
 .a{
-	background-color: #f7f5dd;
+	color: #363636;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #ffeadb;
 	display: none;
+	font-family: cursive;
+	font-size: 1.6em;
+	border-style: solid;
+	border-radius: 30px;
+	border-width: 1px;
+	border-color: #b9ac92;
+
+
 }
