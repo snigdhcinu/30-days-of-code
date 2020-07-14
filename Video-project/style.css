@@ -1,7 +1,36 @@
 #video-container{
 	position: relative;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	filter: brightness(0.4);
+	
 }
 #video{
 	width: 100%;
 	height: 100%;
+}
+
+#video-label{
+	z-index: 10;
+	position: relative;
+	top: -11em;
+	font-size: 3em;
+	color: #f7fbe1;
+	text-align: center;
+
+}
+#btn{
+	z-index: 10;
+	position: relative;
+	top: -18em;
+	left: 6em;
+	font-size: 1.3em;
+}
+footer{
+	color: #777;
+}
+footer a{
+	color: #333;
+	text-decoration: none;
 }
