@@ -1,0 +1,60 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #d3dbff;
+}
+h1{
+	margin-left: -10px;
+	padding-top: 5vh;
+	text-align: center;
+	background-color: #f9d56e;
+	width: 100vw;
+	height: 10vh;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+#landing-page{
+	width: 100vw;
+	height: 100vh;
+	margin-left: -10px;
+}
+#nav-bar{
+	background-color: #f0ece3;
+	padding: 6px;
+	margin-top: -10px;
+	/*position: sticky;*/
+	position: fixed;
+}
+#logo{
+	margin-right: 45vw;
+	font-size: 1.5em;
+}
+.nav-item{
+	display: inline;
+	font-size: 1.2em;
+	margin-right: 3.5vw;
+}
+#about-us{
+	width: 100vw;
+	height: 100vh;
+}
+#our-services{
+	width: 100vw;
+	height: 100vh;
+}
+#featured{
+	width: 100vw;
+	height: 100vh;
+}
+#testimonial{
+	width: 100vw;
+	height: 100vh;
+}
+footer{
+	background-color: #5e6f64;
+	width: 100vw;
+	height: 15vh;
+}
