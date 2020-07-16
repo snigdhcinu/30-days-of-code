@@ -22,11 +22,12 @@ a{
 	margin-left: -10px;
 }
 #nav-bar{
-	background-color: #f0ece3;
+	/*background-color: #f0ece3;*/
+	background-color: #d3dbff;
 	padding: 6px;
 	margin-top: -10px;
-	/*position: sticky;*/
-	position: fixed;
+	position: relative;
+	/*position: fixed;*/
 }
 #logo{
 	margin-right: 45vw;
