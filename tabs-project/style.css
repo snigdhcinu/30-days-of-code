@@ -1,0 +1,29 @@
+body{
+	background-color: #d3dbff;
+}
+.intro{
+	text-align: center;
+}
+#content{
+	margin-left: 30vw;
+}
+#left{
+	float: left;
+}
+#left img{
+	width: 250px;
+	height: 150px;
+}
+#right{
+	float: right;
+	margin-right: 23vw;
+	width: 25vw;
+	background-color: #fff;
+
+}
+.list-item{
+	display: inline;
+	padding: 5px 30px;
+	background-color: #e0dede;
+	margin-right:-5px;
+}
