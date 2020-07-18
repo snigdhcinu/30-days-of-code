@@ -3,9 +3,14 @@ body{
 }
 .intro{
 	text-align: center;
+	margin-top: 20vh;
+}
+#sub-heading{
+	margin-top: -20px;
 }
 #content{
 	margin-left: 30vw;
+	margin-top: 10vh;
 }
 #left{
 	float: left;
@@ -15,15 +20,37 @@ body{
 	height: 150px;
 }
 #right{
+	height: 150px;
 	float: right;
 	margin-right: 23vw;
 	width: 25vw;
-	background-color: #fff;
-
+	background-color: #ffffdd;
+}
+#nav-section button{
+	margin-right: -12px;
+	background-color: transparent;
+	border-style: none;
+	outline: none;
+	cursor: pointer;
 }
 .list-item{
 	display: inline;
-	padding: 5px 30px;
+	padding: 5px 25px;
 	background-color: #e0dede;
 	margin-right:-5px;
+}
+
+#nav-content-heading{
+	height: 1.2em;
+	padding: 0px 5px;
+	padding-left: 20px;
+	margin-top: -8px;
+}
+#nav-content-paragraph{
+	height: 82px;
+	overflow-y:  scroll;
+	padding: 0px 5px;
+	padding-left: 20px;
+	margin-top: -15px;
+	line-height: 1em;
 }
