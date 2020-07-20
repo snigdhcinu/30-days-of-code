@@ -17,12 +17,39 @@ body{
 #right{
 	float: right;
 	position: relative;
-	left: -30em;
+	left: -17em;
+}
+#right h1{
+	position: relative;
+	left: 1.2em;
 }
 #right ul{
 	list-style: none;
 	margin-top: 20px;
 }
-#right li{
+.list-item{
 	display: inline;
+	background-color: #555;
+	color: #ffffdd;
+	font-size: 2em;
+	padding: 5px;
+	margin-right: 1.5em;
+}
+.list-time{
+	display: inline;
+	color: #1b262c;
+	margin-right: 1.5em;
+	position: relative;
+	top: 10px;
+	left: -5px;
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+#mins{
+	position: relative;
+	left: -0.7em;
+}
+#secs{
+	position: relative;
+	left: -1.6em;
 }
