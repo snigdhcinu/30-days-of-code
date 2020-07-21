@@ -1,0 +1,35 @@
+body{
+	background-color: #d3dbff;
+}
+#form-body{
+	margin-top: 2em;
+	text-align: center;
+}
+#form-body label{
+	font-size: 1.5em;
+}
+#form-body input{
+	margin-top: 1em;
+	height: 2em;
+	width: 5em;
+	font-size: 1.1em;
+	font-family: cursive;
+	font-weight: bold;
+	border-radius: 30px;
+	border-color: #d3de32;
+	background-color: #fff48f;
+	outline: none;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+#form-body button{
+	font-size: 1.1em;
+	background-color: #ade498;
+	border-color: #ade498;
+	outline: none;
+}
+#result{
+	text-align: center;
+	margin-top: 3em;
+	font-size: 1.1em;
+}
