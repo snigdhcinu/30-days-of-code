@@ -45,11 +45,11 @@ body{
 	font-size: 1.5em;
 	font-weight: lighter;
 }
-#mins{
+#min{
 	position: relative;
 	left: -0.7em;
 }
-#secs{
+#sec{
 	position: relative;
 	left: -1.6em;
 }
