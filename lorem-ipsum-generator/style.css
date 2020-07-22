@@ -31,5 +31,10 @@ body{
 #result{
 	text-align: center;
 	margin-top: 3em;
+	margin-left: 20vw;
 	font-size: 1.1em;
+	width: 60%;
+}
+.lorem-ipsum-paragraph{
+	margin-top: 2em;
 }
