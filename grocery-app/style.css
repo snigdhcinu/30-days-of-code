@@ -1,0 +1,73 @@
+body{
+	background-color: #bbe1fa;
+}
+#list-container{
+	text-align: center;
+	margin-top: 15vh;
+	background-color: #fffdf9;
+	width: 40%;
+	padding: 20px;
+	position: relative;
+	left: 25%;
+	box-shadow: 5px 5px 10px 1px #d1cebd, -5px -5px 10px 1px #d1cebd;
+	border-radius: 20px;
+}
+#list-heading{
+	font-size: 1.8em;
+	font-weight: bolder;
+}
+input{
+	background-color: #e8f9e9;
+	border-style: none;
+	padding: 5px;
+	padding-left: 10px;
+	outline: none;
+	font-size: 1.1em;
+}
+#add-btn{
+	background-color: #1eb2a6;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 1.1em;
+	outline: none;
+	cursor: pointer;
+}
+.list-item{
+	list-style: none;
+	text-align: left;
+}
+.edit-btn{
+	z-index: 20;
+	position: relative;
+	top: -1.4em;
+}
+.delete-btn{
+	z-index: 40;
+	position: relative;
+	top: -1.4em;
+}
+#clear-btn{
+	background-color: #fffdf9;
+	border-style: none;
+	outline: none;
+	color: #fe346e;
+	cursor: pointer;
+}
+
+@media (max-width: 650px){
+
+#list-container{
+	width: 222px;
+	position: relative;
+	left: 15px;
+}
+input{
+	font-size: 0.8em;
+}
+#add-btn{
+	font-size: 0.8em;
+}
+#clear-btn{
+	font-size: 0.7em;
+}
+}
