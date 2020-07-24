@@ -27,6 +27,6 @@ let i=0;
  function add(){
  	let input=document.getElementsByTagName('input')[0].value;
  	i+=1;
- 	list.innerHTML+="<li class='list-item' id='list-item-"+i+"'>"+input+"</li><button class='edit-btn' id='edit-btn-"+i+"' onclick='edit("+i+")'>✏️E</button><button class='delete-btn' id='delete-btn-"+i+"' onclick='delet("+i+")'>🗑D</button>"
+ 	list.innerHTML+="<li class='list-item' id='list-item-"+i+"'>"+input+"</li><button class='edit-btn' id='edit-btn-"+i+"' onclick='edit("+i+")'>✏️</button><button class='delete-btn' id='delete-btn-"+i+"' onclick='delet("+i+")'>🗑</button>"
  	document.getElementsByTagName('input')[0].value=' ';
  }
