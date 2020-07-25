@@ -19,7 +19,9 @@ let i=0;
  	let node=document.getElementById("list-item-"+n);
  	// console.log(node.innerText)
  	let text=prompt('Enter the updated value for'+' '+node.innerText);
+ 	if(text!=""){
  	node.innerText=text;
+ 	}
  }
  function delete_all(){
  	list.innerHTML=" ";
