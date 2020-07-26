@@ -1,0 +1,17 @@
+ body{
+ 	background-color: #fff48f;
+
+ }
+ #container{
+ 	text-align: center;
+ 	position: relative;
+ 	left: 20%;
+ 	top: 10vh;
+ 	width: 60%;
+ 	height: 40%;
+ 	background-color: #fff;
+ 	border-radius: 10px;
+ }
+ #container:hover{
+ 	box-shadow: 5px 5px 15px,-5px -5px 15px #eeecda,5px -5px 15px #eeecda,-5px 5px 15px #eeecda;
+ }
