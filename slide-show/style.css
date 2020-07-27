@@ -16,7 +16,7 @@
  	background-image: url('public/pic1.jpg');
  	background-repeat: no-repeat;
  	background-size: cover;
- 	box-shadow: 5px 5px 15px,-5px -5px 15px #eeecda,5px -5px 15px #eeecda,-5px 5px 15px #eeecda;
+ 	box-shadow: 5px 5px 15px #eeecda,-5px -5px 15px #eeecda,5px -5px 15px #eeecda,-5px 5px 15px #eeecda;
  	transition: background-image 0.6s;
 	-webkit-transition: background-image 0.6s;
  }
