@@ -8,10 +8,47 @@
  	left: 20%;
  	top: 10vh;
  	width: 60%;
- 	height: 40%;
+ 	height: 60vh;
  	background-color: #fff;
  	border-radius: 10px;
- }
- #container:hover{
+ 	display: grid;
+ 	grid-template-columns: 10% 80% 10%;
+ 	background-image: url('public/pic1.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
  	box-shadow: 5px 5px 15px,-5px -5px 15px #eeecda,5px -5px 15px #eeecda,-5px 5px 15px #eeecda;
+ 	transition: background-image 0.6s;
  }
+ #prev{
+ 	background-color: #fff;
+ 	cursor: pointer;
+ 	height: 12vh;
+ 	position: relative;
+ 	top: 40%;
+ 	opacity: 0.3;
+ 	border-radius: 50%;
+ 	border-style: none;
+ 	outline: none;
+ }
+ #prev:hover{
+ 	opacity: 0.7;
+ }
+ #next{
+	background-color: #fff;
+ 	cursor: pointer;
+	height: 12vh;
+	position: relative;
+ 	top: 40%;
+ 	opacity: 0.3;
+ 	border-radius: 50%;
+ 	border-style: none;
+ 	outline: none;
+ }
+ #next:hover{
+ 	opacity: 0.7;
+ }
+ .navigate{
+ 	width: 20px;
+ 	height: 20px;
+ }
+ @media
