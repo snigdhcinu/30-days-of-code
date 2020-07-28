@@ -44,3 +44,17 @@ li{
 #section{
 	display: none;
 }
+@media (max-width: 1050px){
+	header{
+		font-size: 1em;
+	}
+	#modes button{
+		font-size: 0.8em;
+	}
+	ul{
+		width: 60%;
+	}
+	li{
+		font-size: 0.8em;
+	}
+}
