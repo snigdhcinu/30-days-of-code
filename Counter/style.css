@@ -1,12 +1,15 @@
-#canvas{
+body{
 	background-color: #cff6cf;
+}
+#canvas{
+
 	width: 100vw;
 	height: 100vh;
 }
 #container{
 text-align: center;
 position: relative;
-top: 35%;
+top: 27%;
 }
 #display{
 	font-size: 6em;
@@ -17,8 +20,18 @@ top: 35%;
 	font-size: 1.3em;
 	height: 2em;
 	border-radius: 20px;
+	outline: none;
 }
 #buttons button:hover{
 	background-color: #000;
 	color: #fff;
+}
+@media (max-width: 400px){
+	#display{
+		font-size: 2em;
+	}
+	#buttons button{
+		margin-top: 20px;
+		font-size: 0.6em;
+	}
 }
