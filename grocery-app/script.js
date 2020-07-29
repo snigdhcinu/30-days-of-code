@@ -28,7 +28,20 @@ let i=0;
  }
  function add(){
  	let input=document.getElementsByTagName('input')[0].value;
+ 	if(input!=""){
  	i+=1;
  	list.innerHTML+="<li class='list-item' id='list-item-"+i+"'>"+input+"</li><button class='edit-btn' id='edit-btn-"+i+"' onclick='edit("+i+")'>✏️</button><button class='delete-btn' id='delete-btn-"+i+"' onclick='delet("+i+")'>🗑</button>"
  	document.getElementsByTagName('input')[0].value=' ';
+ 	}
+ 	else{
+ 		alert('Enter a valid input!!');
+ 	}
+
  }
+function enter_submit(){
+	let x=event.keyCode;
+	// console.log(x)
+	if(x==13){
+		add()
+	}
+}
