@@ -48,6 +48,10 @@ li{
 	header{
 		font-size: 1em;
 	}
+	#container{
+		position: relative;
+		left: -10%;
+	}
 	#modes button{
 		font-size: 0.8em;
 	}
