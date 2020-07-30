@@ -38,3 +38,18 @@ body{
 .lorem-ipsum-paragraph{
 	margin-top: 2em;
 }
+@media (max-width: 500px){
+	#form-body label{
+		font-size: 1em;
+	}
+	#form-body input{
+		font-size: 0.7em;
+	}
+	#form-body button{
+		font-size: 0.7em;
+	}
+	#result{
+		font-size: 0.8em;
+	}
+
+}
