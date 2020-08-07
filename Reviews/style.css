@@ -45,6 +45,7 @@ hr{
 	border-style: none;
 	font-size: 1.8em;
 	outline: none;		/* So that onclick the element doesn't have a border around it */
+	cursor: pointer;
 }
 #rand_review button{
 	background-color: #f9fcfb;
@@ -52,6 +53,11 @@ hr{
 	border-radius: 20px;
 	color: #0a97b0;
 	outline: none;
+}
+#rand_review button:hover{
+	background-color: #0a97b0;
+	color: #f9fcfb;
+	cursor: pointer;
 }
 #name{
 	margin-top: -5px;
